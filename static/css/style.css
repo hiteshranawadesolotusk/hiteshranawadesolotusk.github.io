@@ -6,11 +6,17 @@ body, html{font-family: 'Nunito Sans', sans-serif !important; height: 100%; marg
          .navbar-default .navbar-nav > li > a:hover{
          color:#efd85b;
          }
-         .navbar-default{border-color:transparent!important;}
-         .navbar {min-height:70px !important;margin-bottom:0px!important;border-radius:0px!important;background:#8B4E1E;color:white;}
+         .navbar-default{border:none!important;}
+         .navbar {min-height:68px !important;margin-bottom:0px!important;border-radius:0px!important;background:#8B4E1E;color:white;}
          .navbar-nav {margin-top:10px !important}
          .navbar-toggle {margin-top:17px!important}
          .navbar-brand { padding:0px!important;}
+         //.brand-img{min-height:68px !important;}
+         @media only screen and (max-width: 600px) {
+             .navbar-brand{
+                height:68px !important;
+             }
+         }
          /*====================navbar========================*/
          /*====================for image next to navbar========================*/
          .hero-image {
@@ -45,7 +51,7 @@ body, html{font-family: 'Nunito Sans', sans-serif !important; height: 100%; marg
          }
          @media only screen and (max-width: 600px) {
          .hero-image-text{
-         font-size:20px;
+         font-size:30px;
          font-weight:700;
          }
          }
