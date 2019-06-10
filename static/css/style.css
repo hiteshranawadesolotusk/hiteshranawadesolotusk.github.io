@@ -87,7 +87,7 @@ body, html{font-family: 'Nunito Sans', sans-serif !important; height: 100%; marg
          }
          div.p-desc {
          color: #3B3A3A;
-         font-size: 1.3em;
+         font-size: 1.1em;
          padding: 10px;
          }
          /* Responsive */
@@ -109,7 +109,7 @@ body, html{font-family: 'Nunito Sans', sans-serif !important; height: 100%; marg
          /* Responsive */
          @media only screen and (max-width: 600px) {
          .head-text{
-         font-size:20px;
+         font-size:30px;
          }
          }
          /*=============end Header text===================*/
@@ -133,8 +133,10 @@ body, html{font-family: 'Nunito Sans', sans-serif !important; height: 100%; marg
 			  background-repeat: no-repeat;
          }
          .goals-making-wthree p{
-         font-size: 15px;
-         color: #888;
+         //color: #888;
+         padding-top:20px;
+         font-size: 1.2em;
+
          line-height: 30px;
          }
          /*--//about-*/
